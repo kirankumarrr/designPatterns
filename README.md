@@ -1,7 +1,8 @@
 
 ## WHEN TO USE CONSTRUCTOR PATTERN
 EXAMPLE :
-- QUESTIONS/CREATING USERS
+- Questions
+-  Creating Users
 
 -  INHERITANCE PATTERN / METHODS WHICH PRE_HARDCODED AS VALUES WE CREATED INITIALLY
 
@@ -24,4 +25,57 @@ EXAMPLE :
  * 1. MAINTAINABILITY (avoid DRY)
  * 2. NAMESPACING ( Global variables(BAD PRACTISE), namespace pollution)
  * 3. REUSABILITY ( reuse code in different projects)
+```
+
+##  Factory Pattern
+EXAMPLE : Factory produces many products(car,motor,buses)
+ * Factory may have sub factories
+ * End user doesn't care about production process
+ * He cares only how to sale a product
+
+=> uses its according whens its needed
+
+```bash
+ * Advantages
+ * 1. To seprate the object creation from its implementation
+ * 2. To create a different instance based on conditions
+ * 3 .Not exposes the constructors of the objects, preventing their modifications
+```
+
+
+##  Singleton Pattern
+
+ * Singleton pattern doesn't allow you to create new instance every time, instead using reference it server the needs
+
+ * Example: Buying a Course once, if you try to buy its doesn't allow you.
+
+
+=> uses its according whens its needed
+
+```bash
+ * Hardware access
+ * Database connections
+ * Config files 
+ * sharing a single washing machine among all the residents in a hotel
+```
+
+
+##  Builder Pattern / COMPOSITION
+ * Suppose a customize computer then we should this patter
+ * assume that we have boxes and its has label on it to differentiate,
+ * so we can get any detail easily
+
+```bash
+ * To simplify the constructor of a complex object
+ * To sepate the constructor and representation
+ * COMPOSITION
+ * Different representation for the object that is constructed 
+ * 
+ * ISSUES : To know what exactly this parameters are?
+ * we can only say if we see the Person implementation
+ *                              ?     ?    ?    ? 
+ * const person = new Person('nick',true,false,true)
+ * 
+ * fix around 
+ * const person = new Person('nick').employee().manager().partTime(12)
 ```
