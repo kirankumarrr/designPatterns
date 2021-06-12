@@ -79,3 +79,23 @@ EXAMPLE : Factory produces many products(car,motor,buses)
  * fix around 
  * const person = new Person('nick').employee().manager().partTime(12)
 ```
+
+
+##  Decorator Pattern (Mechanic)
+  -  Add additional feature to existing objects
+
+```bash
+ * 
+ * 1. Modify an object dynamically
+ * 2. Uses composition instead of inheritance
+ * 3. More flexibility than static inheritance
+```
+
+
+```bash
+ * //Example game 
+ * const car = new Car('BMW')
+ * const superCar = new CarTunning(car) // Updated 
+ * 
+```
+
