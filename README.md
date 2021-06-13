@@ -1,12 +1,12 @@
 
-## WHEN TO USE CONSTRUCTOR PATTERN
+## WHEN TO USE CONSTRUCTOR PATTERN 👨
 EXAMPLE :
 - Questions
 -  Creating Users
 
 -  INHERITANCE PATTERN / METHODS WHICH PRE_HARDCODED AS VALUES WE CREATED INITIALLY
 
-## Prototype Pattern
+## Prototype Pattern 🧬
 EXAMPLE :
 *DNA IS GOOD EXAMPLE
 - CONSTRUCTOR : EYES,HAIR 
@@ -14,9 +14,9 @@ EXAMPLE :
 
 ##  WHEN TO USE MODULAR PATTERN
 EXAMPLE :
-*Chef want to cook ,  he maintains different fridge:
-- 1. meat fridge
-- 2. vegs fridge
+*Chef👨‍🍳 want to cook🍲 ,  he maintains different fridges:
+- 1. meat fridge 🍖
+- 2. vegs fridge 🥔
 
 => uses its according whens its needed
 
