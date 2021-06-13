@@ -27,11 +27,11 @@ EXAMPLE :
  * 3. REUSABILITY ( reuse code in different projects)
 ```
 
-##  Factory Pattern
+##  Factory Pattern 🏭
 EXAMPLE : Factory produces many products(car,motor,buses)
- * Factory may have sub factories
+ * Factory may have sub factories 🚘, 🚋, 🚃
  * End user doesn't care about production process
- * He cares only how to sale a product
+ * He cares only how to sale a product 🤝
 
 => uses its according whens its needed
 
@@ -47,7 +47,7 @@ EXAMPLE : Factory produces many products(car,motor,buses)
 
  * Singleton pattern doesn't allow you to create new instance every time, instead using reference it server the needs
 
- * Example: Buying a Course once, if you try to buy its doesn't allow you.
+ * Example: Buying a Course once 🎫, if you try to buy its doesn't allow you. 🏆
 
 
 => uses its according whens its needed
@@ -60,7 +60,7 @@ EXAMPLE : Factory produces many products(car,motor,buses)
 ```
 
 
-##  Builder Pattern / COMPOSITION
+##  Builder Pattern / COMPOSITION 👷‍♂️
  * Suppose a customize computer then we should this patter
  * assume that we have boxes and its has label on it to differentiate,
  * so we can get any detail easily
@@ -81,7 +81,7 @@ EXAMPLE : Factory produces many products(car,motor,buses)
 ```
 
 
-##  Decorator Pattern (Mechanic)
+##  Decorator Pattern (Mechanic) 👷‍♂️
   -  Add additional feature to existing objects
 
 ```bash
@@ -94,8 +94,8 @@ EXAMPLE : Factory produces many products(car,motor,buses)
 
 ```bash
  * //Example game 
- * const car = new Car('BMW')
- * const superCar = new CarTunning(car) // Updated 
+ * const car 🚗 = new Car('BMW')
+ * const superCar🏎️ = new CarTunning(car) // Updated  
  * 
 ```
 
