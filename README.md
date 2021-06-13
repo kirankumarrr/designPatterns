@@ -99,3 +99,14 @@ EXAMPLE : Factory produces many products(car,motor,buses)
  * 
 ```
 
+##  Composite Pattern
+  -  Add additional feature to existing objects
+
+```bash
+ * 1. Group of items or Trees
+ * 2. Tree Strucute of objects
+ * 3. Class hierarchies with primitive and objects
+ * 4. Any level of Complexity
+```
+
+![App Screenshot](https://www.tutorialspoint.com/xml/images/tree_structure.jpg)
