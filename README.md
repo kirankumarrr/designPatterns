@@ -110,3 +110,14 @@ EXAMPLE : Factory produces many products(car,motor,buses)
 ```
 
 ![App Screenshot](https://www.tutorialspoint.com/xml/images/tree_structure.jpg)
+
+##  Facade Pattern
+  -  Hide Complex Logic by wapper facade layers
+  -  When we have to start a computer, all we have to do is press the start button. We really do not care what all things go inside the computer hardware and software
+
+```bash
+ * 1. Provides convenient higher-level interface
+ * 2. Hide complex code (logic)
+ * 3. Facede = wrappers
+ * 4. Readable code
+```
