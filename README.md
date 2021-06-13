@@ -12,7 +12,7 @@ EXAMPLE :
 - CONSTRUCTOR : EYES,HAIR 
 - PROTOTYPE  :DNA
 
-##  WHEN TO USE MODULAR PATTERN
+## MODULAR Pattern
 EXAMPLE :
 *Chef👨‍🍳 want to cook🍲 ,  he maintains different fridges:
 - 1. meat fridge 🍖
